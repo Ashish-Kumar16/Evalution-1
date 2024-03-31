@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shojumaru&family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .container-1 {
+        width: 1512px;
+        height: 588px;
+        /* border: 2px solid blue; */
+        background-image: url(./picture/Rectangle\ 18.svg);
+        /* display:inline; */
+        /* background-image: -webkit-image-set(); */
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 2px solid red; */
+        align-items: center;
+      }
+      .logo {
+        display: flex;
+        /* border: 2px solid; */
+        /* align-items: center; */
+        margin-top: 21px;
+        margin-left: 88px;
+      }
+      .logo > img {
+        width: 106px;
+        height: 117px;
+        /* margin-left: 88px; */
+        /* margin-top: 17px; */
+      }
+      .logo > p {
+        font-family: ZCOOL KuaiLe;
+        font-weight: 400;
+        font-size: 32px;
+        color: #ffffff;
+      }
+      .menu {
+        display: flex;
+        /* border: 2px solid; */
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 178px; */
+        width: 583px;
+        height: 52px;
+        /* top: 40px; */
+        /* left: -103px; */
+        padding: 16px 24px 16px 24px;
+        /* gap: 24px; */
+        justify-content: space-around;
+        border-radius: 20px;
+        background: #191818;
+        color: white;
+        font-family: ZCOOL KuaiLe;
+        opacity: 0px;
+        margin-top: 40px;
+      }
+      .menu > span {
+        font-size: 20px;
+      }
+      .wallent-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 127px;
+        height: 38px;
+        /* top: 48px; */
+        /* margin-left: 695px; */
+        padding: 10px 16px 10px 16px;
+        /* gap: 6.18px; */
+        border-radius: 15.44px;
+        opacity: 0px;
+        background: linear-gradient(93.73deg, #ed0137 20.19%, #f05733 88.3%);
+        color: #ffffff;
+        margin-right: 89px;
+        margin-top: 48px;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 12px;
+        /* line-height: 18px; */
+        /* margin-left: 695px; */
+      }
+      .wallent-btn > p {
+        width: 95px;
+        height: 18px;
+
+        /* top: 10px;
+            left: 16px; */
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        line-height: 18px;
+        text-align: left;
+      }
+      .container-1>.info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 2px solid green; */
+        width: 1262px;
+        height: 108px;
+        margin-top: 178px;
+        font-family: Shojumaru;
+        margin-left: 123px;
+        margin-right: 127rem;
+        margin-bottom: 204px;
+        color: #fbf6f6;
+      }
+      .info > p {
+        font-size: 45px;
+        font-family: Shojumaru;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid; */
+      }
+
+
+      .container-2{
+        width: 1512px;
+        height: 3,300pxpx;
+        display: flex;
+        background-color: #191818;
+        
+
+      }
+      .container-2 .info{
+        margin-left: 166px;
+      }
+      .container-2 .info h1{
+        font-family: Shojumaru;
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 52.36px;
+        text-align: left;
+        color: #ED0137;
+        /* border: 2px solid white; */
+        /* margin-left: 166px; */
+        margin-top: 89px;
+
+      }
+      .container-2 .info p{
+        font-family: ZCOOL KuaiLe;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.56px;
+        text-align: left;
+        color: #FFFCFD;
+        /* border: 2px solid white; */
+
+      }
+      .container-2 .picture {
+        /* border: 2px solid green; */
+        width: 795px;
+        height: 795px;
+        gap: 0px;
+        /* opacity: 71%;  */
+        margin-top: -67px;
+
+      }
+      .container-2 .picture img{
+        /* width: 97%; */
+      }
+      .container-2 .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 178.94px;
+        height: 54.06px;
+        /* top: 1042px;
+        left: -435px; */
+        /* padding: 17.03px 21.29px 17.03px 21.29px; */
+        gap: 11.35px;
+        border-radius: 21.92px;
+        opacity: 0px;
+        background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+        font-family: ZCOOL KuaiLe;
+        font-size: 20.03px;
+        font-weight: 400;
+        /* line-height: 20.03px; */
+        text-align: left;
+        color: #FFFFFF;
+        margin-bottom: 164.94px;
+      }
+      .container-2 > .info > .read {
+        font-family: ZCOOL KuaiLe;
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: -20px;
+        color: rgb(169, 159, 159);
+      }
+
+      .container-3{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+        width: 1512px;
+        height: 716px;
+        gap: 0px;
+        /* opacity: 0.71px; */
+
+        background-image: url(./picture/Rectangle\ 21\ \(1\).svg);
+      }
+      .container-3 .navbar{
+        border: 2px solid ;
+        margin-top: 64px;
+        margin-left: 613px;
+        margin-right: 617px;
+        margin-bottom: 112px;
+        color: #ED0137;
+        width: 565px;
+        height: 100px;
+        gap: 0px;
+        font-family: Shojumaru;
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 52.36px;
+        text-align: left;
+
+        opacity: 0px;
+
+      }
+      .container-3 .cards{
+        display: flex;
+        /* flex-direction: row; */
+        width: 1159.1px;
+        height: 349px;
+        margin-left: -180px;
+
+      }
+      .container-3 .cards > div{
+        width:237.06px;
+        height: 349px;
+        left: 614.59px;
+        margin: 50px;
+        border-radius: 13.17px ;
+        opacity: 0px;
+
+      }
+
+
+      .container-4{
+        display: flex;
+        width: 1512px;
+        height: 3300px;
+        background-color: #191818;
+        flex-direction: column;
+        justify-content: space-between;
+        /* justify-content: center; */
+        align-items: center;
+
+      }
+      .container-4 .picture{
+        width: 503px;
+        height: 503px;
+        /* border: 2px solid; */
+        margin-left: 86px;
+        margin-top: 109px;
+
+      }
+      .container-4 .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 640px;
+      }
+      .container-4 .info > div{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Shojumaru;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26.48px;
+        text-align: left;
+        color: #FFFFFF;
+        padding-left: 40px;
+        padding-bottom: 26px;
+        padding-top: 27px;
+        width: 640px;
+        height: 77px;
+        gap: 0px;
+        border-radius: 20px ;
+        border: 1px solid #ED0137;
+        margin-left: 94px;
+        /* opacity: 0px; */
+
+      }
+      .container-4 .info .head{
+        margin-top: 64px;
+        margin-bottom: 64px;
+        align-items: center;
+        border: none;
+        justify-content: center;
+        font-family: Shojumaru;
+        font-size: 44px;
+        
+        font-weight: 400;
+        line-height: 52.36px;
+        text-align: left;
+
+        color: #ED0137;
+      }
+      .footer{
+        display: flex;
+        flex-direction: column;
+
+      }
+      .footer > .home {
+        display: flex;
+        /* border: 2px solid; */
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 178px; */
+        width: 583px;
+        height: 52px;
+        /* top: 40px; */
+        /* left: -103px; */
+        padding: 16px 24px 16px 24px;
+        /* gap: 24px; */
+        justify-content: space-around;
+        border-radius: 20px;
+        background: #191818;
+        color: white;
+        font-family: Poppins;
+        opacity: 0px;
+        margin-bottom: 106px;
+        font-size: 
+12.82px;
+
+      }
+      .part-1{
+        display: flex;
+        flex-direction: row;
+      }
+      .footer > .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .footer > .logo > p{
+        background: linear-gradient(92.23deg, #FF002A 5.2%, #720005 90.93%);
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 25.64px;
+        letter-spacing: 1.7090909481048584px;
+        text-align: left;
+        width: 114px;
+        height: 26px;
+        top: 252px;
+        left: 699px;
+        gap: 0px;
+        opacity: 0px;
+
+
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container-1">
+        <!-- <img src="./picture/Rectangle 18.svg" alt=""> -->
+        <div class="navbar">
+          <div class="logo">
+            <img src="./picture/Logo Savior red copy 1.svg" alt="" />
+            <p>Saviour</p>
+          </div>
+          <div class="menu">
+            <span>Home</span><span>IDO</span><span>Tokenomics</span
+            ><span>Roadmap</span><span>Coming Soon</span>
+          </div>
+          <div class="wallent-btn">Connect Wallet</div>
+        </div>
+        <div class="info">
+          <p>
+            Where Blockchain Heroes Thrive, Rescuing Dreams, Elevating Fortunes.
+          </p>
+        </div>
+      </div>
+      <div class="container-2">
+        <div class="info">
+          <h1>Introduction</h1>
+          <p>
+            We've all been in the mud once, and now we've <br> decided to fight it
+            out. <br> Pay tribute to those pioneers of WEB3 and the <br> warriors who
+            dedicated their love to the <br> blockchain. Save the lucky ones alive,
+            join us to save the future! <br> Our mission is to empower everyone to
+            share <br> wealth and succeed. <br> 
+            <div class="read">read more...</div>
+          </p>
+          <div class="btn">Documents</div>
+        </div>
+        <div class="picture">
+            <img src="./picture/Brick_Matrix_Generate_a_logo_concept_that_visually_represents_t_9df3d56e-2aaa-42b8-add9-01ba1b656499 2.svg" alt="">
+        </div>
+      </div>
+      <div class="container-3">
+        <div class="navbar">
+            <h1>Road Map</h1>
+        </div>
+        <div class="cards">
+            <div><img src="./picture/Link (6).svg" alt=""></div>
+            <div><img src="./picture/Link (7).svg" alt=""></div>
+            <div><img src="./picture/Link (8).svg" alt=""></div>
+            <div><img src="./picture/Link (9).svg" alt=""></div>
+        </div>
+      </div>
+      <div class="container-4">
+        <div class="part-1">
+            <div class="picture">
+                <img src="./picture/image 1.svg" alt="">
+            </div>
+            <div class="info">
+                <div class="head">FAQ</div>
+                <div><span>1</span>Why choose "Savior"?<span></span><span></span></div>
+                <div><span>2</span>Why is the IDO duration so long?<span></span><span></span></div>
+                <div><span>3</span>When will trading go live?<span></span><span></span></div>
+                <div>
+                    <div><span>4</span><span>When can we claim the tokens?</span><span></span></div>
+                    <div>After the IDO concludes, you can claim the tokens on our official website.
+                    </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="logo">
+                <img src="./picture/Logo Savior red copy 1 (1).svg" alt="">
+                <p>SITEMAP</p>
+            </div>
+            <div class="home">
+                <span>Home</span><span>IDO</span><span>Tokenomics</span><span></span><span>Road Map</span><span>Whitepaper</span><span>Pledge</span><span>NFT</span><span>Games</span>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
